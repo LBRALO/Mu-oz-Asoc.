@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Para todas las paginas */
+
+/* Header*/
+
+.body{
+    color: whitesmoke;
+    background-color: black;
+    height: 20%;
+}
+
+.encabezado{
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.encabezado_first{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+   width: 100px
+}
+
+.encabezado_lista{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.encabezado_lista_item{
+    display: inline-block;
+    margin: 20px;
+    color: black;
+    text-decoration: none
+}
+
+.encabezado_lista_item:hover{
+    color: blue;
+}
+
+ header nav ul li {
+    display: inline;
+} 
+
+/* ------------------------------------------------- Footer ------------------------------------------------ */
+
+footer{
+    background-color: black;
+}
+
+.fondo_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.fondo{
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    grid-auto-rows: minmax(150px, auto);
+    gap: 40px;
+    grid-auto-flow: dense;
+    justify-content: center;
+    background-color: black;
+    border: solid 3vh black;
+}
+
+.map:hover{
+    transform: scale(1.1);
+}
+.linkedin{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+} 
+
+.logo_footer{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+ 
+/* ------------------------------------------------- Index ------------------------------------------------- */
+
+.cuerpo1{
+    height: 550px;
+    border: solid 20px black;
+    position: relative;
+}
+
+.titlecentral{
+    text-align: center;
+    margin-right: 50%;
+}
+
+.textcentral{
+    width: 50%;
+    height: 20%;
+    margin-right: 50%;
+    text-align: center;
+    position: absolute;
+} 
+
+.imagecentral{
+    width: 50%;
+    height: 90%;
+    margin-left: 50%;
+    object-fit: contain;
+    object-position: 50% 10%;
+}
+
+/* ----------------------------------------------- Nosotros ------------------------------------------------ */
+
+.main_no{
+    background-color: black;
+    /* height: 80vh; */
+}
+
+/* Primera seccion */
+
+.texto-QS{
+    color: whitesmoke;
+    text-align: center;
+    border: solid 1vh black;
+    display: inline;
+}
+
+.foto-ET{
+    object-fit: cover;
+    object-position: 5% 10%;
+    display: inline;
+}
+
+.fistar{
+    color: whitesmoke;
+    display: grid;
+    margin: 0 auto;
+    padding: auto;
+    /* grid-template-columns: 5fr 2fr; */
+    grid-template-columns: repeat(auto fill, minmax(auto, 50%));
+    justify-content: last baseline;
+    background-color: black;
+    /* border: solid 3vh black; */
+}
+
+/* Segunda seccion */
+
+.presentacion{
+    color: whitesmoke;
+    text-align: center;
+    border: solid 1vh black;
+}
+
+/* .foto-JP{
+    width: 20%;
+} */
+
+.experiencia{
+    color: whitesmoke;
+    text-align: center;
+    border: solid 1vh black;
+}
+
+.secondar{
+    /* height: 40%; */
+    color: whitesmoke;
+    display: grid;
+    margin: 0 auto;
+    padding: auto;
+    grid-template-columns: repeat(minmax(auto, 33%));
+    /* grid-template-columns: 2fr 1fr 2fr; */
+    grid-template-areas: unset;
+    /* grid-auto-rows: minmax(50%, auto); */
+    /* gap: 40px; */
+    /* grid-auto-flow: dense; */
+    /* justify-content:center ; */
+    grid-column: 33%;
+    background-color: black;
+    border: solid 3vh black;
+}
+
+/* ------------------------------------------ Areas profesionales ------------------------------------------ */
+
+.main_ar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.h2ar{
+    text-align: center;
+}
+
+.comercial{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-image: url(./imagenes/derecho-comercial.PNG);
+    background-size: 100%;
+    height: 400px;
+    width: 250px;
+    line-height: 3;
+}
+
+.comercial ul li{
+    list-style: none;
+}
+
+.laboral{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-image: url(./imagenes/derecho-laboral.PNG);
+    background-size: 100%;
+    height: 400px;
+    width: 250px;
+    line-height: 3;
+}
+
+.laboral ul li{
+    list-style: none;
+}
+
+.civil{    
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-image: url(./imagenes/derecho-civil.PNG);
+    background-size: 100%;
+    height: 400px;
+    width: 250px;
+    line-height: 3;
+}
+
+.civil ul li{
+    list-style: none;
+}
+
+.familia{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-image: url(./imagenes/derecho-familia.PNG);
+    background-size: 100%;
+    height: 400px;
+    width: 250px;
+    line-height: 3;
+}
+
+.familia ul li{
+    list-style: none;
+}
+
+/* ---------------------------------------- Representación gratuita ---------------------------------------- */
+
+.main_rg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.porque{
+    text-align: center;
+    color: whitesmoke;
+    width: 300px;
+    border: solid 1vh black;
+}
+
+/* ----------------------------------------------- Contacto ------------------------------------------------ */
+
+.main_co{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: 20px black;
+}
+
+.h2co{
+    color: whitesmoke;
+}
