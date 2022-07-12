@@ -4,67 +4,12 @@
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Para todas las paginas */
 
 /* Header*/
-
-.body{
-    color: whitesmoke;
-    background-color: black;
-    height: 20%;
-}
-
-.encabezado{
-    color: black;
-    background-color: white;
-    text-align: center;
-}
-
-.encabezado_first{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.logo{
-   width: 100px
-}
-
-.encabezado_lista{
-    margin: 0 auto;
-    width: fit-content;
-}
-
-.encabezado_lista_item{
-    display: inline-block;
-    margin: 20px;
-    color: black;
-    text-decoration: none
-}
-
-.encabezado_lista_item:hover{
-    color: whitesmoke;
-    background-color: black;
-    transform: scale(1.5);
-
-}
-
- header nav ul li {
-    display: inline;
-} 
-
-/* BORRAR */
-.h2:hover{
-    color: yellow;
-    background-color: blue;
-    transform: scale(5);
-}
 
 /* ------------------------------------------------- Footer ------------------------------------------------ */
 
