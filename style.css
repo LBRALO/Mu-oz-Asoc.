@@ -59,6 +59,13 @@ body{
     display: inline;
 } 
 
+/* BORRAR */
+.h2:hover{
+    color: yellow;
+    background-color: blue;
+    transform: scale(5);
+}
+
 /* ------------------------------------------------- Footer ------------------------------------------------ */
 
 footer{
