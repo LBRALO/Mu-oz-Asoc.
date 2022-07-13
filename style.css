@@ -61,6 +61,11 @@ footer{
  
 /* ------------------------------------------------- Index ------------------------------------------------- */
 
+main{
+    background-color: black;
+    color: whitesmoke;
+}
+
 .cuerpo1{
     height: 550px;
     border: solid 20px black;
@@ -92,34 +97,23 @@ footer{
 
 .main_no{
     background-color: black;
-    /* height: 80vh; */
 }
 
 /* Primera seccion */
+
+.firstar{
+    border: solid 2vh black;
+}
+.title-QS{
+    color: whitesmoke;
+    text-align: center;
+    border: solid 1vh black;
+}
 
 .texto-QS{
     color: whitesmoke;
     text-align: center;
     border: solid 1vh black;
-    display: inline;
-}
-
-.foto-ET{
-    object-fit: cover;
-    object-position: 5% 10%;
-    display: inline;
-}
-
-.fistar{
-    color: whitesmoke;
-    display: grid;
-    margin: 0 auto;
-    padding: auto;
-    /* grid-template-columns: 5fr 2fr; */
-    grid-template-columns: repeat(auto fill, minmax(auto, 50%));
-    justify-content: last baseline;
-    background-color: black;
-    /* border: solid 3vh black; */
 }
 
 /* Segunda seccion */
@@ -138,24 +132,6 @@ footer{
     color: whitesmoke;
     text-align: center;
     border: solid 1vh black;
-}
-
-.secondar{
-    /* height: 40%; */
-    color: whitesmoke;
-    display: grid;
-    margin: 0 auto;
-    padding: auto;
-    grid-template-columns: repeat(minmax(auto, 33%));
-    /* grid-template-columns: 2fr 1fr 2fr; */
-    grid-template-areas: unset;
-    /* grid-auto-rows: minmax(50%, auto); */
-    /* gap: 40px; */
-    /* grid-auto-flow: dense; */
-    /* justify-content:center ; */
-    grid-column: 33%;
-    background-color: black;
-    border: solid 3vh black;
 }
 
 /* ------------------------------------------ Areas profesionales ------------------------------------------ */
@@ -235,17 +211,14 @@ footer{
 /* ---------------------------------------- Representación gratuita ---------------------------------------- */
 
 .main_rg{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: black;
+    color: whitesmoke;
+    border: solid 1vh black;
 }
 
 .porque{
     text-align: center;
-    color: whitesmoke;
-    width: 300px;
-    border: solid 1vh black;
+    border: solid 5vh black;
 }
 
 /* ----------------------------------------------- Contacto ------------------------------------------------ */
