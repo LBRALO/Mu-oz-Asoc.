@@ -11,6 +11,10 @@ body{
 
 /* Header*/
 
+#grad{
+    background-image: linear-gradient(to bottom, whitesmoke, grey);
+}
+
 /* ------------------------------------------------- Footer ------------------------------------------------ */
 
 footer{
@@ -39,6 +43,7 @@ footer{
 
 .map:hover{
     transform: scale(1.1);
+    transition: all 1s;
 }
 
 .linkedin{
@@ -91,6 +96,14 @@ main{
     margin-left: 50%;
     object-fit: contain;
     object-position: 50% 10%;
+    background-image: url(./imagenes/imagen-inicio.jpg);
+    animation: carrousel 10s infinite;
+}
+
+@keyframes carrousel{
+    50%{
+        background-image: url(./imagenes/Columnas.jpg);
+    }
 }
 
 /* ----------------------------------------------- Nosotros ------------------------------------------------ */
@@ -123,10 +136,6 @@ main{
     text-align: center;
     border: solid 1vh black;
 }
-
-/* .foto-JP{
-    width: 20%;
-} */
 
 .experiencia{
     color: whitesmoke;
