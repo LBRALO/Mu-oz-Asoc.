@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------------------------- Hader ------------------------------------------------ */
+
+#grad{
+    background-image: linear-gradient(to bottom, whitesmoke, grey);
+}
+
+/* ------------------------------------------------- Footer ------------------------------------------------ */
+
+footer{
+    background-color: black;
+}
+
+.fondo_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.fondo{
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    grid-auto-rows: minmax(150px, auto);
+    gap: 40px;
+    grid-auto-flow: dense;
+    justify-content: center;
+    background-color: black;
+    border: solid 3vh black;
+}
+
+.map:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.linkedin{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+} 
+
+.logo_footer{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}

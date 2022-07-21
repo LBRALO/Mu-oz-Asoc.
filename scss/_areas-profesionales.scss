@@ -1,0 +1,71 @@
+.main_ar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.h2ar{
+    text-align: center;
+}
+
+.comercial{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-image: url(../imagenes/derecho-comercial.PNG);
+    background-size: 100%;
+    height: 400px;
+    width: 250px;
+    line-height: 3;
+
+    & ul li{
+        list-style: none;
+    }
+}
+
+.laboral{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-image: url(../imagenes/derecho-laboral.PNG);
+    background-size: 100%;
+    height: 400px;
+    width: 250px;
+    line-height: 3;
+
+    & ul li{
+        list-style: none;
+    }
+}
+
+.civil{    
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-image: url(../imagenes/derecho-civil.PNG);
+    background-size: 100%;
+    height: 400px;
+    width: 250px;
+    line-height: 3;
+
+    & ul li{
+        list-style: none;
+    }
+}
+
+.familia{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-image: url(../imagenes/derecho-familia.PNG);
+    background-size: 100%;
+    height: 400px;
+    width: 250px;
+    line-height: 3;
+
+    & ul li{
+        list-style: none;
+    }
+}
