@@ -11,14 +11,7 @@
 }
 
 .comercial{
-    display: flex;
-    flex-direction: column;
-    color: whitesmoke;
-    background-image: url(../imagenes/derecho-comercial.PNG);
-    background-size: 100%;
-    height: 400px;
-    width: 250px;
-    line-height: 3;
+    @include foto (url(../imagenes/derecho-comercial.PNG));
 
     & ul li{
         list-style: none;
@@ -26,14 +19,7 @@
 }
 
 .laboral{
-    display: flex;
-    flex-direction: column;
-    color: whitesmoke;
-    background-image: url(../imagenes/derecho-laboral.PNG);
-    background-size: 100%;
-    height: 400px;
-    width: 250px;
-    line-height: 3;
+    @include foto (url(../imagenes/derecho-laboral.PNG));
 
     & ul li{
         list-style: none;
@@ -41,14 +27,7 @@
 }
 
 .civil{    
-    display: flex;
-    flex-direction: column;
-    color: whitesmoke;
-    background-image: url(../imagenes/derecho-civil.PNG);
-    background-size: 100%;
-    height: 400px;
-    width: 250px;
-    line-height: 3;
+    @include foto (url(../imagenes/derecho-civil.PNG));
 
     & ul li{
         list-style: none;
@@ -56,14 +35,7 @@
 }
 
 .familia{
-    display: flex;
-    flex-direction: column;
-    color: whitesmoke;
-    background-image: url(../imagenes/derecho-familia.PNG);
-    background-size: 100%;
-    height: 400px;
-    width: 250px;
-    line-height: 3;
+    @include foto (url(../imagenes/derecho-familia.PNG));
 
     & ul li{
         list-style: none;

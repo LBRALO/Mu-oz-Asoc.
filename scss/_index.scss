@@ -1,16 +1,19 @@
+/* ------------------------------------------------- Index ------------------------------------------------- */
+
 main{
     background-color: map-get($colores, "color-fondo");
     color: whitesmoke;
 }
 
 .cuerpo1{
-    height: 550px;
+    height: 760px;
     border: solid 20px black;
     position: relative;
 }
 
 .titlecentral{
     text-align: center;
+    border: solid 20px black;
     margin-right: 50%;
 }
 
@@ -28,6 +31,4 @@ main{
     margin-left: 50%;
     object-fit: contain;
     object-position: 50% 10%;
-    background-image: url(./imagenes/imagen-inicio.jpg);
-    animation: carrousel 10s infinite;
 }

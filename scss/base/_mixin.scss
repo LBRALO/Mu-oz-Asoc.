@@ -1,0 +1,10 @@
+@mixin foto ($bgImage){
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-image: $bgImage;
+    background-size: 100%;
+    height: 400px;
+    width: 250px;
+    line-height: 3;
+}

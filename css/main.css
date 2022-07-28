@@ -50,17 +50,19 @@ footer {
   height: 100px;
   border-radius: 20%; }
 
+/* ------------------------------------------------- Index ------------------------------------------------- */
 main {
   background-color: black;
   color: whitesmoke; }
 
 .cuerpo1 {
-  height: 550px;
+  height: 760px;
   border: solid 20px black;
   position: relative; }
 
 .titlecentral {
   text-align: center;
+  border: solid 20px black;
   margin-right: 50%; }
 
 .textcentral {
@@ -75,9 +77,36 @@ main {
   height: 90%;
   margin-left: 50%;
   object-fit: contain;
-  object-position: 50% 10%;
-  background-image: url(./imagenes/imagen-inicio.jpg);
-  animation: carrousel 10s infinite; }
+  object-position: 50% 10%; }
+
+/* ------------------------------------------------ Nosotros ----------------------------------------------- */
+.main_no {
+  background-color: black; }
+
+/* Primera seccion */
+.firstar {
+  border: solid 2vh black; }
+
+.title-QS {
+  color: whitesmoke;
+  text-align: center;
+  border: solid 1vh black; }
+
+.texto-QS {
+  color: whitesmoke;
+  text-align: center;
+  border: solid 1vh black; }
+
+/* Segunda seccion */
+.presentacion {
+  color: whitesmoke;
+  text-align: center;
+  border: solid 1vh black; }
+
+.experiencia {
+  color: whitesmoke;
+  text-align: center;
+  border: solid 1vh black; }
 
 .main_ar {
   display: flex;
@@ -136,3 +165,29 @@ main {
   line-height: 3; }
   .familia ul li {
     list-style: none; }
+
+.main_rg {
+  background-color: black;
+  color: whitesmoke;
+  border: solid 1vh black; }
+
+.porque {
+  text-align: center;
+  border: solid 5vh black; }
+
+/* .main_co{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: 20px black;
+} */
+/* ------------------------------------------------ Contacto ----------------------------------------------- */
+.main_co {
+  padding: 2%;
+  background-color: black;
+  margin: 20px black; }
+
+.h2co {
+  color: whitesmoke; }
