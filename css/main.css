@@ -9,6 +9,10 @@ body {
 #grad {
   background-image: linear-gradient(to bottom, whitesmoke, grey); }
 
+.logo {
+  width: 50px;
+  height: 50px; }
+
 /* ------------------------------------------------- Footer ------------------------------------------------ */
 footer {
   background-color: black; }
@@ -56,28 +60,25 @@ main {
   color: whitesmoke; }
 
 .cuerpo1 {
-  height: 760px;
-  border: solid 20px black;
-  position: relative; }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: solid 20px black; }
 
-.titlecentral {
+.text {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  border: solid 20px black;
-  margin-right: 50%; }
+  width: 850px;
+  border: solid 20px black; }
 
 .textcentral {
-  width: 50%;
   height: 20%;
-  margin-right: 50%;
-  text-align: center;
-  position: absolute; }
+  text-align: center; }
 
 .imagecentral {
-  width: 50%;
-  height: 90%;
-  margin-left: 50%;
-  object-fit: contain;
-  object-position: 50% 10%; }
+  width: 280px;
+  height: 400px; }
 
 /* ------------------------------------------------ Nosotros ----------------------------------------------- */
 .main_no {
@@ -85,7 +86,8 @@ main {
 
 /* Primera seccion */
 .firstar {
-  border: solid 2vh black; }
+  border: solid 2vh black;
+  text-align: center; }
 
 .title-QS {
   color: whitesmoke;
@@ -173,16 +175,35 @@ main {
 
 .porque {
   text-align: center;
-  border: solid 5vh black; }
+  border: solid 2vh black; }
 
-/* .main_co{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: black;
-    margin: 20px black;
-} */
+.formulario {
+  border-radius: 5px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px whitesmoke solid;
+  border-radius: 5px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.1);
+  color: whitesmoke; }
+
+.submit {
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #00BCD4;
+  border-radius: 20px;
+  border: 2px solid #2196F3;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease; }
+
+.submit:hover {
+  color: #2196F3;
+  background-color: #ffffff;
+  cursor: pointer; }
+
 /* ------------------------------------------------ Contacto ----------------------------------------------- */
 .main_co {
   padding: 2%;

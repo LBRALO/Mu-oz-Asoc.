@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg navegador" id="grad">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">
-                <img src="../imagenes/logo.jpeg" alt="" width="50" height="50" class="d-inline-block align-text-center"> Muñoz & Asociados
+                <img src="../imagenes/logo.jpeg" alt="" class="d-inline-block align-text-center logo"> Muñoz & Asociados
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -58,13 +58,29 @@
               </div> 
               <div class="col experiencia">
                 <p>Completalo si necesitas patrocionio gratuito:</p>
-                <form>
-                  <div><input type="text" placeholder="Nombre y Apellido"></div>
-                  <div><input type="text" placeholder="Rama del derecho (opcional)"></div>
-                  <div><input type="text" placeholder="Contanos tu historia..."></div>
-                  <div><input type="text" placeholder="Objetivo"></div>
-                  <div><button type="submit" class="btn btn-primary">Enviar</button></div>
-              </form>
+                <form class="formulario" action="#" id="formulario">
+                  <div>
+                    <fieldset>
+                      <div>
+                        <label for="nombre">Nombre y apellido:</label></br>
+                        <input type="text" name="nombre" placeholder="Nombre y apellido" required /></br>
+                      </div>
+                      <div>
+                        <label for="derecho">Rama del derecho:</label></br>
+                        <input type="text" name="derecho" placeholder="Derecho..." optional /></br>
+                      </div>
+                      <div>
+                        <label for="objetivo">Objetivo:</label></br>
+                        <input type="text" name="objetivo" placeholder="Me gustaria..." required /></br>
+                      </div>
+                      <div>
+                        <label for="message">Contanos tu historia:</label></br>
+                        <textarea name="message" cols="30" rows="6" required></textarea></br>
+                      </div>
+                      <button class="submit" type="submit" class="submit">Enviar</button></br>
+                    </fieldset>
+                  </div>
+                </form>
             </div>
           </div>
         </section>

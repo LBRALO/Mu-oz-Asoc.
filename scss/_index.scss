@@ -6,29 +6,26 @@ main{
 }
 
 .cuerpo1{
-    height: 760px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: solid 20px black;
-    position: relative;
 }
 
-.titlecentral{
+.text{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    width: 850px;
     border: solid 20px black;
-    margin-right: 50%;
 }
 
 .textcentral{
-    width: 50%;
     height: 20%;
-    margin-right: 50%;
     text-align: center;
-    position: absolute;
 } 
 
 .imagecentral{
-    width: 50%;
-    height: 90%;
-    margin-left: 50%;
-    object-fit: contain;
-    object-position: 50% 10%;
+    width: 280px;
+    height: 400px;
 }
