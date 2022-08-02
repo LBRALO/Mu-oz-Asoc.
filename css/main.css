@@ -99,6 +99,9 @@ main {
   text-align: center;
   border: solid 1vh black; }
 
+.image-QS {
+  width: 280px; }
+
 /* Segunda seccion */
 .presentacion {
   color: whitesmoke;
