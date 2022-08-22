@@ -3,7 +3,25 @@
   padding: 0; }
 
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh; }
+
+.submit {
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #00BCD4;
+  border-radius: 20px;
+  border: 2px solid #2196F3;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease; }
+
+.submit:hover {
+  color: #2196F3;
+  background-color: #ffffff;
+  cursor: pointer; }
 
 /* ------------------------------------------------- Hader ------------------------------------------------ */
 #grad {
@@ -13,40 +31,26 @@ body {
   width: 50px;
   height: 50px; }
 
+main {
+  height: 100%; }
+
 /* ------------------------------------------------- Footer ------------------------------------------------ */
 footer {
-  background-color: black; }
-
-.fondo_item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black; }
-
-.fondo {
-  display: grid;
-  width: 80%;
-  margin: 0 auto;
-  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
-  grid-auto-rows: minmax(150px, auto);
-  gap: 40px;
-  grid-auto-flow: dense;
-  justify-content: center;
   background-color: black;
-  border: solid 3vh black; }
+  padding-top: 2%; }
 
 .map:hover {
   transform: scale(1.1);
   transition: all 1s; }
 
 .linkedin {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-radius: 20%; }
 
 .instagram {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-radius: 20%; }
 
 .logo_footer {
@@ -121,7 +125,8 @@ main {
   background-color: black; }
 
 .h2ar {
-  text-align: center; }
+  text-align: center;
+  padding-top: 10px; }
 
 .comercial {
   display: flex;
@@ -131,7 +136,8 @@ main {
   background-size: 100%;
   height: 400px;
   width: 250px;
-  line-height: 3; }
+  line-height: 3;
+  padding-top: 10; }
   .comercial ul li {
     list-style: none; }
 
@@ -190,26 +196,10 @@ main {
   background: rgba(0, 0, 0, 0.1);
   color: whitesmoke; }
 
-.submit {
-  text-decoration: none;
-  padding: 12px;
-  font-weight: 600;
-  font-size: 18px;
-  color: #ffffff;
-  background-color: #00BCD4;
-  border-radius: 20px;
-  border: 2px solid #2196F3;
-  transition: all 1s ease;
-  -webkit-transition: all 1s ease; }
-
-.submit:hover {
-  color: #2196F3;
-  background-color: #ffffff;
-  cursor: pointer; }
-
 /* ------------------------------------------------ Contacto ----------------------------------------------- */
 .main_co {
-  padding: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   background-color: black;
   margin: 20px black; }
 

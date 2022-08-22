@@ -19,22 +19,3 @@
     background: rgba(0, 0, 0, 0.1);
     color: whitesmoke;
 }
-
-.submit {
-    text-decoration: none;
-    padding: 12px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #00BCD4;
-    border-radius: 20px;
-    border: 2px solid #2196F3;
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-  }
-
-.submit:hover{
-    color: #2196F3;
-    background-color: #ffffff;
-    cursor:pointer;
-}
